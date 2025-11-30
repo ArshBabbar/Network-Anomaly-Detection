@@ -70,3 +70,11 @@ Traditional network security systems often fail to detect **modern and unknown a
 - Achieved **high accuracy** on the test dataset.  
 - Demonstrated strong performance in detecting malicious network traffic.  
 - Confusion matrix and classification reports confirm effective classification.  
+
+---
+
+## Disclaimer
+
+This project is adapted from the Hack The Box Academy module  
+**“Applications of AI in InfoSec – Network Anomaly Detection”** and is used  
+strictly for personal learning and educational practice.
