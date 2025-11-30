@@ -2,7 +2,10 @@
 import requests, zipfile, io
 
 # URL for the NSL-KDD dataset
-url = "https://academy.hackthebox.com/storage/modules/292/KDD_dataset.zip"
+
+url = "https://github.com/jmnwong/NSL-KDD-Dataset/archive/refs/heads/master.zip"
+# if the above url does not work then you can get the link from HTB academy or from any of the following:
+# The NSL-KDD dataset can be downloaded from [Kaggle / Hugging Face / GitHub] — see LICENSE / usage terms on their page
 
 # Download the zip file and extract its contents
 response = requests.get(url)
@@ -207,3 +210,4 @@ joblib.dump(rf_model_multi, model_filename)
 
 print(f"Model saved to {model_filename}")
 ________________________________
+
